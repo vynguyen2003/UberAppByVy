@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Add your keys and values here -->
+
+    <!-- App Information -->
+    <key>CFBundleDisplayName</key>
+    <string>YourAppName</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.yourapp</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+
+    <!-- Permissions -->
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera for...</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photo library for...</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>We need your location for...</string>
+
+    <!-- Other Configurations -->
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
+    </array>
+
+    <!-- Add more keys as needed for your app -->
+
+</dict>
+</plist>
