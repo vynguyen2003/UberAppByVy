@@ -12,6 +12,7 @@ const OptionRide = () => {
   const chargeRate = 1.5;
   const [chooseFare, setChooseFare] = React.useState(null);
   const navigation = useNavigation();
+  // store in array of objects, since it has the same pattern
   const data = [
     {
         id: "123",
