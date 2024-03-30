@@ -17,7 +17,7 @@ const MapScreen = () => {
         <View style={{width: "100%", height: "50%"}}>
             <Map/>
         </View>        
-
+        // use stack navigator to flip back and forth to other cards, while Map does not swip to anything, so navigation does not need to use for it
         <Stack.Navigator>
             <Stack.Screen
              name = "DestinationCard"  //need to the same when navigate to 
