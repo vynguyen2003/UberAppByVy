@@ -29,7 +29,7 @@ const HomeScreen = () => {
       let {coords} = await Location.getCurrentPositionAsync();
       if(coords){
         const {latitude, longitude} = coords;   // object destructure in javascript 
-        let response = await Location.reverseGeocodeAsync({latitude,longitude}); //Location.reverseGeocodeAsync returns an array //{latitude,longitude} use object literal shorthand, pass direcly objects
+        let response = await Location.reverseGeocodeAsync({latitude,longitude}); //Location.reverseGeocodeAsync returns an array //{latitude,longitude} use object literal shorthand, pass direct objects
 
         for (let item of response){
           let address = `${item.name} ${item.city} ${item.postalCode}`;
